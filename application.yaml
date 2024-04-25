@@ -11,4 +11,4 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: ${KEYCLOAK_SERVER_ADDRESS:http://localhost:9091/realms/sbilh}
+          issuer-uri: ${KEYCLOAK_SERVER_ADDRESS:http://localhost:8080/realms/sbilh}
